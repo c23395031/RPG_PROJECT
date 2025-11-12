@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
     int x;
+    int y;
     Game game;
 
     game.Run();
@@ -12,6 +13,7 @@ int main()
     cin >> x;
     cout << x;
     cin >> x;
+    cin >> y;
     
     return 0;
 }
