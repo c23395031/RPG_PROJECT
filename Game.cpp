@@ -1,24 +1,35 @@
 
 #include "Game.h"
 #include <iostream>
+#include <string>
+std::string x;
 bool Game::Init()
 {
     return false;
 }
 
+void Game::Test()
+{
+    std::cout << "Starting Test\n";
+    std::cout << "Enter your name\n";
+    std::cin >> x;
+}
 void Game::ProcessInputs()
 {
-    std::cout << "Process Inputs\n";
+    std::cout << "Processing Inputs\n";
+    std::cout << "DONE!\n";
 }
 
 void Game::Update()
 {
     std::cout << "Update\n";
+    std::cout << "DONE!\n";
 }
 
 void Game::Draw()
 {
-    std::cout << "Draw()\n";
+    std::cout << "Draw\n";
+    std::cout << "DONE!\n";
 }
 
 Game::Game()
@@ -39,6 +50,7 @@ void Game::Run()
     
     if (m_bIsRunning)
     {
+        Test();
         ProcessInputs();
         Update();
         Draw();

@@ -4,16 +4,19 @@ using namespace std;
 
 int main()
 {
-    int x;
-    int y;
+    string x;
+    
     Game game;
 
     game.Run();
 
+    cout << "\nGame startup complete! ";
+
     cin >> x;
-    cout << x;
     cin >> x;
-    cin >> y;
+    
+
+   
     
     return 0;
 }

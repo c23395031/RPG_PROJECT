@@ -12,6 +12,7 @@ private:
     void ProcessInputs();
     void Update();
     void Draw();
+    void Test();
 
 public:
     Game();
