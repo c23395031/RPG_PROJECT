@@ -8,10 +8,13 @@ int main()
 {
     string x;
     string action;
+
+    
     
     Game game;
     Area area;
     Character character;
+   
 
     game.Run();
 
