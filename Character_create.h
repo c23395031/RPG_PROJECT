@@ -17,6 +17,7 @@ class Character
     void gender();
     void race();
     void name();
+    
 
     
     
@@ -27,6 +28,7 @@ class Character
     public:
     void create_prompt();
     void create();
+    void character_readback();
     int Age;
     string Name;
     string Gender;

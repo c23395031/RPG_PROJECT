@@ -13,6 +13,7 @@ class Area
     void travel();
     void current_area();
     string destination;
+    string location;
 
 
     

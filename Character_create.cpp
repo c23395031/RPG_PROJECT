@@ -33,9 +33,16 @@ void Character::race()
 
 void Character::create()
 {
+    name();
     age_years();
     gender();
     race();
+}
+
+void Character::character_readback()
+{
+    std::cout << "Character Created! \n";
+    std::cout << "you are a " << Age << " year old " << Gender << " " << Race << " named " << Name; 
 }
 
 void Character::create_prompt()
@@ -47,4 +54,6 @@ void Character::create_prompt()
     create();
     }
 }
+
+
 

@@ -9,7 +9,7 @@ int main()
     string x;
     string action;
 
-    
+
     
     Game game;
     Area area;
@@ -21,7 +21,8 @@ int main()
     cout << "\nGame startup complete! " << endl;
 
     character.create_prompt();
-
+    character.character_readback();
+/*
     cout << "What would you like to do? " << endl;
     cout << "[ATTACK]\n[DEFEND]\n[TRAVEL]\n";
     cin >> action;
@@ -42,7 +43,7 @@ int main()
     {
         cout << "That was not an option!";
         
-    }
+    }*/
     
 
 
