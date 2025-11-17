@@ -11,8 +11,8 @@ bool Game::Init()
 void Game::Test()
 {
     std::cout << "Starting Test\n";
-    std::cout << "Enter your name\n";
-    std::cin >> x;
+    
+ 
 }
 void Game::ProcessInputs()
 {
