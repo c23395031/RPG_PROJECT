@@ -8,6 +8,7 @@ int main()
 {
     string x;
     string action;
+    bool Program_running = true;
 
 
     
@@ -23,27 +24,31 @@ int main()
     character.create_prompt();
     character.character_readback();
 
-    cout << "What would you like to do? " << endl;
-    cout << "[ATTACK]\n[DEFEND]\n[TRAVEL]\n";
-    cin >> action;
+    while(Program_running = true)
+    {
 
-    if (action == "ATTACK")
-    {
-        cout << "You attacked!";
-    }
-    else if (action == "DEFEND")
-    {
-        cout << "You defended";
-    }
-    else if (action == "TRAVEL")
-    {
-        area.current_area();
-        area.travel();
-    }
-    else 
-    {
-        cout << "That was not an option!";
-        
+        cout << "What would you like to do? " << endl;
+        cout << "[ATTACK]\n[DEFEND]\n[TRAVEL]\n";
+        cin >> action;
+
+        if (action == "ATTACK")
+        {
+            cout << "You attacked!";
+        }
+        else if (action == "DEFEND")
+        {
+            cout << "You defended";
+        }
+        else if (action == "TRAVEL")
+        {
+            area.current_area();
+            area.travel();
+        }
+        else 
+        {
+            cout << "That was not an option!";
+            
+        }
     }
     
 

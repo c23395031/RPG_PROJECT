@@ -17,6 +17,7 @@ private:
 public:
     Game();
     ~Game();
+    bool Program_running;
 
     void Run();
 }; 

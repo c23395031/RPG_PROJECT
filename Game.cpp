@@ -47,6 +47,7 @@ void Game::Run()
 {
     if (!Init())
         m_bIsRunning = true;
+        
     
     if (m_bIsRunning)
     {
