@@ -1,3 +1,4 @@
+
 #include <fstream>
 #include <iostream>
 #include <cstdlib>
@@ -29,10 +30,13 @@ void showMap();
 
 bool battle(Player &player) 
 {
+
+    Art battle_art;
     //Pull random monster to fight and display it
     
     Monster enemy_m = returnOpponent(player.level);
     enemy_m.Display_Monster();
+    battle_art.Enemy_name_reader(enemy_m.name);
     
     
     
